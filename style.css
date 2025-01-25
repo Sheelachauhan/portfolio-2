@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.header{
+position: fixed;
+left: 0;
+top: 0;
+width: 100%;
+padding: 35px 12px;
+background: black;
+justify-content: space-between;
+display: flex;
+align-items: center;
+}
+.logo{
+font-size: 25px;
+color: white;
+font-weight: 700;
+transition: 3sec;
+}
+.logo:hover{
+    color: chocolate;
+    text-shadow: 0 0 50px orangered ;
+}
+span{
+    color: orangered;
+}
+.navbar a {
+font-size: 18px;
+color: white;
+font-weight: 500;
+margin: 0 20px;
+border-bottom: 3px solid transparent;
+transition: 0.3s ease;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: rgb(236, 90, 45);
+    border-bottom: 3px solid orangered;
+}
+.contact{
+padding: 18px 28px;
+background-color: white;
+color: black;
+border: 2px solid transparent;
+border-radius: 8px;
+font-size: 20px;
+letter-spacing: 1px;
+font-weight:600 ;
+transform: 0.3s ease;
+}
+.contact:hover{
+    background-color: orangered;
+    box-shadow: 0 0 25px orangered;
+    color: white;
+}
+.home{
+    width: 100%;
+    min-height: 200vh;
+    background-color: rgb(235, 232, 222);
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12px 0;
+
+}
+.home-content{
+    max-width: 800;
+}
+.home-content h3{
+    font-size: 42px;
+}
+.home-content h1{
+    font-size: 62px;
+    line-height: 1.2;
+}
+.home-content p{
+    font-size: 18px;
+    margin: 25px 0 30px;
+}
+.btn-box{
+    width: 350px;
+    display: flex;
+    gap: 2em;
+}
+.btn-1{
+    padding: 15px 28px;
+    background-color: black;
+    color: wheat;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn-1:hover{
+    background-color: rgb(126, 66, 66);
+    color: black;
+    border: 2px solid transparent;
+}
+.btn-2{
+    padding: 15px 28px;
+    background-color: rgb(124, 46, 36);
+    color:white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn-2:hover{
+    background-color: rgb(148, 120, 49);
+    color:black;
+    border: 2px solid transparent;
+}
+.img-box img{
+border-radius:50% ;
+width: 550px;
+}
